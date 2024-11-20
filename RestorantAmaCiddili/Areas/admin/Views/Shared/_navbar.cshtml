@@ -1,0 +1,55 @@
+﻿@{
+    var activePage = ViewBag.ActivePage as string;
+}
+
+
+<div class="navbar">
+    <div class="menu">
+        <a href="/admin/admin">
+            <img src="~/admin/images/111.svg" alt="">
+        </a>
+        <button class="navbar-toggler expand-button" onclick="expandNavbar()" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <nav class="nav-menu">
+        <div class="icons">
+            <div class="inlineicon">
+                <a href="/admin/admin/menuedit" id="icon-1">
+                    <p>Menü düzenleme</p>
+                    <img class="@(activePage == "menuedit" ? "Aktif" : "")" src="~/admin/images/icons/2.svg" alt="">
+                </a>
+            </div>
+            <div class="inlineicon">
+                <a href="/" id="icon-2">
+                    <p class="">Ana Ekran</p>
+                    <img class="@(activePage == "mainmenu" ? "Aktif" : "")" src="~/admin/images/icons/6.svg" alt="">
+                </a>
+            </div>
+            <div class="inlineicon">
+                <a href="/" id="icon-3">
+                    <p>Kullanıcı ayarları</p>
+                    <img class="@(activePage == "adminuser" ? "Aktif" : "")" src="~/admin/images/icons/4.svg" alt="">
+                </a>
+            </div>
+            <div class="inlineicon">
+                <a href="/" id="icon-4">
+                    <p>Mesajlar</p>
+                    <img class="@(activePage == "messages" ? "Aktif" : "")" src="~/admin/images/icons/5.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div id="user">
+        <p id="user-name">Setsuna</p>
+        <p id="admin-message">Level: 4</p>
+        <div id="foto"><img src="~/admin/images/icons/1.svg" alt=""></div>
+    </div>
+</div>

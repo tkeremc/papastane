@@ -1,0 +1,49 @@
+﻿@model RestorantAmaCiddili.Models.Categories
+
+
+
+
+@* <div class="">
+    <div class="">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class=""></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="">
+                <label asp-for="CategoryName" class=""></label>
+                <input asp-for="CategoryName" class="" />
+                <span asp-validation-for="CategoryName" class=""></span>
+            </div>
+            <div class="">
+                <input type="submit" value="Save" class="" />
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div> *@
+
+<h2 class="kategoribaslik">
+    Kategori Düzenleme
+</h2>
+<div class="form-container">
+    <div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly"></div>
+            <input type="hidden" asp-for="ID" />
+            <div>
+                <label asp-for="CategoryName">Kategori İsmi</label>
+                <input asp-for="CategoryName" />
+                <span asp-validation-for="CategoryName"></span>
+            </div>
+            <div>
+                <input type="submit" value="Save" />
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

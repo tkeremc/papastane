@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="icon" type="image/x-icon" href="~/papastanebitti/resimler/1.svg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7xAGvgTNCu2TJ" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: rgb(225, 175, 209);
+        }
+    </style>
+</head>
+<body>
+    <div id="login" class="login-container">
+        <form id="loginForm">
+            <label for="username">Kullanıcı Adı</label>
+            <input type="text" id="username" name="username" autocomplete="off">
+            <label for="password">Şifre</label>
+            <input type="password" id="password" name="password" autocomplete="off">
+            <button type="submit">Giriş Yap</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+z8vwOrZ4P3X6ZOpjX6BZ6ZB/ZB/Cm2KsrtXEG5" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="~/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.bigger-main {
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+}
+
+.main {
+    width: 1290px;
+    height: 720px;
+    background-color: #ab88c6;
+    margin-top: 29px;
+    border-radius: 25px;
+}

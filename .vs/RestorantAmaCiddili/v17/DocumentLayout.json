@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tarom\\source\\repos\\RestorantAmaCiddili\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37352D2D-EEC2-4215-BD4E-E8B16925AC97}|RestorantAmaCiddili\\RestorantAmaCiddili.csproj|c:\\users\\tarom\\source\\repos\\restorantamaciddili\\restorantamaciddili\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37352D2D-EEC2-4215-BD4E-E8B16925AC97}|RestorantAmaCiddili\\RestorantAmaCiddili.csproj|solutionrelative:restorantamaciddili\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37352D2D-EEC2-4215-BD4E-E8B16925AC97}|RestorantAmaCiddili\\RestorantAmaCiddili.csproj|c:\\users\\tarom\\source\\repos\\restorantamaciddili\\restorantamaciddili\\wwwroot\\admin\\adminindex\\index\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{37352D2D-EEC2-4215-BD4E-E8B16925AC97}|RestorantAmaCiddili\\RestorantAmaCiddili.csproj|solutionrelative:restorantamaciddili\\wwwroot\\admin\\adminindex\\index\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37352D2D-EEC2-4215-BD4E-E8B16925AC97}|RestorantAmaCiddili\\RestorantAmaCiddili.csproj|c:\\users\\tarom\\source\\repos\\restorantamaciddili\\restorantamaciddili\\areas\\musteri\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37352D2D-EEC2-4215-BD4E-E8B16925AC97}|RestorantAmaCiddili\\RestorantAmaCiddili.csproj|solutionrelative:restorantamaciddili\\areas\\musteri\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 228,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\tarom\\source\\repos\\RestorantAmaCiddili\\RestorantAmaCiddili\\wwwroot\\admin\\adminindex\\index\\style.css",
+              "RelativeDocumentMoniker": "RestorantAmaCiddili\\wwwroot\\admin\\adminindex\\index\\style.css",
+              "ToolTip": "C:\\Users\\tarom\\source\\repos\\RestorantAmaCiddili\\RestorantAmaCiddili\\wwwroot\\admin\\adminindex\\index\\style.css",
+              "RelativeToolTip": "RestorantAmaCiddili\\wwwroot\\admin\\adminindex\\index\\style.css",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAJcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-13T06:32:47.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarom\\source\\repos\\RestorantAmaCiddili\\RestorantAmaCiddili\\Areas\\admin\\Views\\admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "RestorantAmaCiddili\\Areas\\admin\\Views\\admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tarom\\source\\repos\\RestorantAmaCiddili\\RestorantAmaCiddili\\Areas\\admin\\Views\\admin\\Index.cshtml",
+              "RelativeToolTip": "RestorantAmaCiddili\\Areas\\admin\\Views\\admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T06:32:21.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarom\\source\\repos\\RestorantAmaCiddili\\RestorantAmaCiddili\\Areas\\musteri\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "RestorantAmaCiddili\\Areas\\musteri\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tarom\\source\\repos\\RestorantAmaCiddili\\RestorantAmaCiddili\\Areas\\musteri\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "RestorantAmaCiddili\\Areas\\musteri\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T06:20:13.354Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

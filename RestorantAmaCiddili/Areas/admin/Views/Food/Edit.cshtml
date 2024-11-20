@@ -1,0 +1,127 @@
+﻿@model RestorantAmaCiddili.Models.Food
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_FoodLayout";
+}
+
+<h2 class="kategoribaslik">
+    Yemek Düzenleme
+</h2>
+@* <div class="">
+    <div class="">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class=""></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="">
+                <label asp-for="Name" class=""></label>
+                <input asp-for="Name" class="" />
+                <span asp-validation-for="Name" class=""></span>
+            </div>
+            <div class="">
+                <label asp-for="Photo" class=""></label>
+                <input asp-for="Photo" class="" />
+                <span asp-validation-for="Photo" class=""></span>
+            </div>
+            <div class="">
+                <label asp-for="Price" class=""></label>
+                <input asp-for="Price" class="" />
+                <span asp-validation-for="Price" class=""></span>
+            </div>
+            <div class="">
+                <label class="">
+                    <input class="" asp-for="Activeness" /> @Html.DisplayNameFor(model => model.Activeness)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryID" class=""></label>
+                <select asp-for="CategoryID" class="" asp-items="ViewBag.CategoryID"></select>
+                <span asp-validation-for="CategoryID" class=""></span>
+            </div>
+            <div class="">
+                <input type="submit" value="Save" class="" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+@* <div class="edit-form">
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly"></div>
+        <input type="hidden" asp-for="ID" />
+        <div>
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="Photo">Photo</label>
+            <input asp-for="Photo" />
+            <span asp-validation-for="Photo"></span>
+        </div>
+        <div>
+            <label asp-for="Price">Price</label>
+            <input asp-for="Price" />
+            <span asp-validation-for="Price"></span>
+        </div>
+        <div>
+            <label>
+                <input asp-for="Activeness" /> @Html.DisplayNameFor(model => model.Activeness)
+            </label>
+        </div>
+        <div class="form-group">
+            <label asp-for="CategoryID">Category</label>
+            <select asp-for="CategoryID" asp-items="ViewBag.CategoryID"></select>
+            <span asp-validation-for="CategoryID"></span>
+        </div>
+        <div>
+            <input type="submit" value="Save" />
+        </div>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+<div class="edit-form">
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly"></div>
+        <input type="hidden" asp-for="ID" />
+        <div>
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="Photo">Photo</label>
+            <input asp-for="Photo" />
+            <span asp-validation-for="Photo"></span>
+        </div>
+        <div>
+            <label asp-for="Price">Price</label>
+            <input asp-for="Price" />
+            <span asp-validation-for="Price"></span>
+        </div>
+        <div>
+            <label>
+                <input asp-for="Activeness" /> @Html.DisplayNameFor(model => model.Activeness)
+            </label>
+        </div>
+        <div class="form-group">
+            <label asp-for="CategoryID">Category</label>
+            <select asp-for="CategoryID" asp-items="ViewBag.CategoryID"></select>
+            <span asp-validation-for="CategoryID"></span>
+        </div>
+        <div class="action-links">
+            <input type="submit" value="Save" />
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<RestorantAmaCiddili.Models.Categories>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2 class="kategoribaslik">
+    Kategori Düzenleme
+</h2>
+<div class="kategorimain">
+    <table class="tabel">
+        <p class="kategoriisim">Kategori İsmi</p>@* @Html.DisplayNameFor(model => model.CategoryName) *@
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                    <td>
+                        <a id="editbuton" class="detaybutonlar" asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                        <a id="silbuton" class="detaybutonlar" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="crate">
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+    </div>
+</div>
+

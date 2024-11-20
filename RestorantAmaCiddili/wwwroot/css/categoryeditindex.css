@@ -1,0 +1,392 @@
+﻿.kategoribaslik{
+    text-align:center;
+    color:white;
+}
+.kategorimain{
+    width:1200px;
+    margin-left:45px;
+}
+.crate{
+    display:flex;
+    justify-content:end;
+}
+.crate a{
+    text-decoration:none;
+    padding:10px 15px;
+    background-color:white;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    margin-top:10px;
+}
+.tabel {
+    background-color:white;
+    border-radius:10px;
+    
+    width:100%;
+    margin-bottom:20px;
+}
+.kategoriisim{
+    color:white;
+    margin-left:50px;
+    font-size:20px;
+}
+.detaybutonlar {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.kategorimaain {
+    margin: 50px auto;
+    width: 400px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.innerkategorimain {
+    text-align: center;
+}
+
+.kategorimaain input[type="text"],
+.kategorimaain input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.kategorimaain input[type="submit"],
+.kategorimaain button {
+    width: calc(50% - 5px);
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.kategorimaain input[type="submit"]:hover,
+.kategorimaain button:hover {
+    background-color: #0056b3;
+}
+
+.kategorimaain a {
+    text-decoration: none;
+    display: inline-block;
+    width: calc(50% - 5px);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.5);
+    color: #fff;
+    margin-top: 10px;
+}
+
+.kategorimaain a:hover {
+    background-color: rgba(0, 123, 255, 0.7);
+}
+
+.kategorimaain label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.form-container {
+    margin: 50px auto;
+    width: 400px;
+    
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="submit"],
+.form-container a {
+    width: calc(50% - 5px);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.form-container input[type="text"] {
+    border: 1px solid #ccc;
+    width:100%;
+}
+
+.form-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+    border:1px solid #fff;
+}
+
+.form-container a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(0, 123, 255, 0.5);
+    color: #fff;
+    text-align:center;
+}
+
+.form-container a:hover {
+    background-color: rgba(0, 123, 255, 0.7);
+}
+.delete-confirmation {
+    margin: 50px auto;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.delete-confirmation h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.delete-confirmation dl {
+    margin-bottom: 20px;
+
+}
+
+.delete-confirmation dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:white;
+}
+
+.delete-confirmation dd {
+    margin-bottom: 10px;
+    color:white;
+}
+
+.delete-confirmation form {
+    margin-bottom: 20px;
+}
+
+.delete-confirmation input[type="submit"],
+.delete-confirmation a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete-confirmation input[type="submit"] {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-confirmation input[type="submit"]:hover {
+    background-color: #c82333;
+}
+
+.delete-confirmation a {
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.delete-confirmation a:hover {
+    background-color: #0056b3;
+}
+.edit-form {
+        margin: 50px auto;
+        width: 400px;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center; /* Form içeriğini ortala */
+    }
+
+    .edit-form label {
+        display: block;
+        color:white;
+        font-size:16px;
+        font-weight:bold;
+        margin-bottom: 5px;
+        text-align: left; /* Label'leri sola yasla */
+    }
+
+    .edit-form input[type="text"],
+    .edit-form input[type="submit"],
+    .edit-form select {
+        width: calc(100% - 22px); /* Kenar boşlukları düzgünce ayarla */
+        padding: 10px;
+        margin: 5px 0; /* Yukarıdan ve aşağıdan boşluk ekle */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Kenarlık genişliğini içeriye dahil et */
+    }
+
+    .edit-form input[type="submit"] {
+        width: 49%; /* Save ve Back to List butonlarının genişliğini ayarla */
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+    }
+
+    .edit-form input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    .edit-form .action-links {
+        margin-top: 10px;
+        text-align: center; /* Action linklerini ortala */
+    }
+
+    .edit-form .action-links a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        margin: 0 5px; /* Sol ve sağdan boşluk ekle */
+    }
+
+    .edit-form .action-links a:hover {
+        background-color: #0056b3;
+    }
+.delete-container {
+        margin: 50px auto;
+        width: 400px;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .delete-container .title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .delete-container .confirmation-message {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color:white;
+    }
+
+    .delete-container .category-heading {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .delete-container hr {
+        margin: 20px auto;
+        border: 0;
+        border-top: 1px solid #ccc;
+        width: 80%;
+    }
+
+    .delete-container dl {
+        margin-bottom: 20px;
+    }
+
+    .delete-container dt,
+    .delete-container dd {
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .delete-container .delete-button,
+    .delete-container .back-button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 0 5px;
+        text-decoration: none;
+    }
+
+    .delete-container .delete-button {
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .delete-container .delete-button:hover {
+        background-color: #c82333;
+    }
+
+    .delete-container .back-button {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .delete-container .back-button:hover {
+        background-color: #0056b3;
+    }
+.create-container {
+        margin: 50px auto;
+        width: 400px;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .create-container label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .create-container input[type="text"],
+    .create-container input[type="submit"],
+    .create-container select {
+        width: calc(100% - 10px);
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .create-container input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+    }
+
+    .create-container input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    .create-container .back-button {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+
+    .create-container .back-button:hover {
+        background-color: #0056b3;
+    }

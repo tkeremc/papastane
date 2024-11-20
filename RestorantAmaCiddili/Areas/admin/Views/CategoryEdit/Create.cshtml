@@ -1,0 +1,69 @@
+﻿@model RestorantAmaCiddili.Models.Categories
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2 class="kategoribaslik">
+    Kategori Düzenleme
+</h2>
+@* <div class="kategorimain">
+    <div class="innerkategorimain">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class=""></div>
+            <div class="">
+                
+                <input asp-for="CategoryName" value="Kategori Adı" class="" />
+                <span asp-validation-for="CategoryName" class=""></span>
+            </div>
+            <div class="">
+                <input type="submit" value="Create" class="" />
+            </div>
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div> *@
+@* <div class="kategorimaain">
+    <div class="innerkategorimain">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label>Kategori İsmi</label>
+                <input asp-for="CategoryName" />
+                <span asp-validation-for="CategoryName"></span>
+            </div>
+            <div>
+                <input type="submit" value="Create" />
+            </div>
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div> *@
+<div class="kategorimaain">
+    <div class="innerkategorimain">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label>Kategori İsmi</label>
+                <input asp-for="CategoryName" />
+                <span asp-validation-for="CategoryName"></span>
+            </div>
+
+            <!-- Ekstra input alanları buraya eklenebilir -->
+            <div>
+                <input type="submit" value="Create" />
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

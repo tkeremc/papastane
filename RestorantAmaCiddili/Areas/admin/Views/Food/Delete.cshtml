@@ -1,0 +1,99 @@
+﻿@model RestorantAmaCiddili.Models.Food
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_FoodLayout";
+}
+<h2 class="kategoribaslik">
+    Yemek Düzenleme
+</h2>
+@* <h2 class="kategoribaslik">
+    Yemek Düzenleme
+</h2>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Food</h4>
+    <hr />
+    <dl class="">
+        <dt class = "">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "">
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
+        <dd class = "">
+            @Html.DisplayFor(model => model.Photo)
+        </dd>
+        <dt class = "">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "">
+            @Html.DisplayNameFor(model => model.Activeness)
+        </dt>
+        <dd class = "">
+            @Html.DisplayFor(model => model.Activeness)
+        </dd>
+        <dt class = "">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class = "">
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd class>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Delete" class="" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div> *@
+<div class="delete-container">
+    <h3 class="confirmation-message">Are you sure you want to delete this?</h3>
+    <div>
+        <h4 class="category-heading">Food</h4>
+        <dl>
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Photo)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Photo)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Activeness)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Activeness)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Category)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Category.CategoryName)
+            </dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="ID" />
+            <input type="submit" value="Delete" class="delete-button" />
+            <a asp-action="Index" class="back-button">Back to List</a>
+        </form>
+    </div>
+</div>
